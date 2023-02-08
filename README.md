@@ -1,2 +1,4 @@
 # OUTH-Get-Token-App
-This application has been written in VB.NET.
+A VB.Net GUI application that can be used to test input providers and obtain an OAUTH token.
+
+![screenshot](/images/screenshot.png)
