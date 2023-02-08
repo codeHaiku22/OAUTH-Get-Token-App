@@ -18,7 +18,7 @@ Public Class frmMain
             Dim strResponse As String
             tkn = Generate_Token(strResponse)
             If strResponse = "" Or tkn Is Nothing Then Exit Sub
-            txtRawOutput.Text = Replace(strResponse.Trim, "https://1ac25458-542c-4ecb-8105-36c15005b656/session:role-any", "https://1ab23456-789c-0def-1234-56a78901b234/session:role-any")
+            txtRawOutput.Text = strResponse.Trim
             txtTokenType.Text = IIf(tkn.token_type IsNot Nothing, tkn.token_type, "")
             txtTokenScope.Text = IIf(tkn.scope IsNot Nothing, tkn.scope, "")
             txtTokenExpires.Text = IIf(tkn.expires_in > 0, tkn.expires_in.ToString, "")

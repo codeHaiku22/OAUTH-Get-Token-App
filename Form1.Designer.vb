@@ -215,7 +215,7 @@ Partial Class frmMain
         '
         'cmdClear
         '
-        Me.cmdClear.Location = New System.Drawing.Point(331, 269)
+        Me.cmdClear.Location = New System.Drawing.Point(333, 269)
         Me.cmdClear.Name = "cmdClear"
         Me.cmdClear.Size = New System.Drawing.Size(120, 30)
         Me.cmdClear.TabIndex = 2
@@ -289,7 +289,6 @@ Partial Class frmMain
         Me.txtTokenExt.ReadOnly = True
         Me.txtTokenExt.Size = New System.Drawing.Size(100, 23)
         Me.txtTokenExt.TabIndex = 19
-        Me.txtTokenExt.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtTokenExpires
         '
@@ -299,7 +298,6 @@ Partial Class frmMain
         Me.txtTokenExpires.ReadOnly = True
         Me.txtTokenExpires.Size = New System.Drawing.Size(100, 23)
         Me.txtTokenExpires.TabIndex = 16
-        Me.txtTokenExpires.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtTokenScope
         '
